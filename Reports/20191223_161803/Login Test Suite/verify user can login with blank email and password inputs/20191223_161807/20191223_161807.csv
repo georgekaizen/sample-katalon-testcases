@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+verify user can login with blank email and password inputs,Chrome 79.0.3945.88,,,2019-12-23 16:20:03,2019-12-23 16:20:51,48.124s,FAILED
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs,Chrome 79.0.3945.88,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-12-23 16:20:03,2019-12-23 16:20:51,47.773s,FAILED
+Start listener action : executeRows,Chrome 79.0.3945.88,,,2019-12-23 16:20:03,2019-12-23 16:20:04,0.799s,PASSED
+openBrowser(loginurl),Chrome 79.0.3945.88,,,2019-12-23 16:20:04,2019-12-23 16:20:12,7.297s,PASSED
+delay(2),Chrome 79.0.3945.88,,,2019-12-23 16:20:12,2019-12-23 16:20:14,2.037s,PASSED
+maximizeWindow(),Chrome 79.0.3945.88,,,2019-12-23 16:20:14,2019-12-23 16:20:18,4.145s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Chrome 79.0.3945.88,,,2019-12-23 16:20:18,2019-12-23 16:20:51,32.953s,FAILED
+Start listener action : addFailedTCToList,Chrome 79.0.3945.88,,,2019-12-23 16:20:51,2019-12-23 16:20:51,0.003s,PASSED

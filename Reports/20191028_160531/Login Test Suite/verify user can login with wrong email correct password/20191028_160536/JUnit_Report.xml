@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="verify user can login with wrong email correct password" time="18.121" tests="1" failures="0" errors="1">
+   <testsuite name="verify user can login with wrong email correct password" tests="1" failures="0" errors="1" time="18.121" timestamp="2019-10-28 16:07:13" hostname="Copia George - DESKTOP-UJOHP7E" id="Test Suites/Login Test Suite/verify user can login with wrong email correct password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191028_160531\\Login Test Suite\\verify user can login with wrong email correct password\\20191028_160536"/>
+         <property name="logFiles" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191028_160531\\Login Test Suite\\verify user can login with wrong email correct password\\20191028_160536\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Copia George - DESKTOP-UJOHP7E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="192.168.5.178"/>
+         <property name="sessionId" value="b0dd9259dfda05eb3fe6fcc8551a47cc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Cases/Verify user can Login with wrong email correct password" time="16.478" classname="Test Cases/Login Test Cases/Verify user can Login with wrong email correct password" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login Test Cases/Verify user can Login with wrong email correct password FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch() is applicable for argument types: (java.lang.Boolean, java.lang.String, java.lang.Boolean) values: [true, Wrong login/password, true]
+Possible solutions: verifyMatch(java.lang.String, java.lang.String, boolean), verifyMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), verifyNotMatch(java.lang.String, java.lang.String, boolean), verifyNotMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)
+	at Verify user can Login with wrong email correct password.run(Verify user can Login with wrong email correct password:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572267936401.run(TempTestSuite1572267936401.groovy:36)
+"/>
+         <system-out><![CDATA[2019-10-28 16:07:13 - [TEST_CASE][ERROR] - Test Cases/Login Test Cases/Verify user can Login with wrong email correct password: Test Cases/Login Test Cases/Verify user can Login with wrong email correct password FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch() is applicable for argument types: (java.lang.Boolean, java.lang.String, java.lang.Boolean) values: [true, Wrong login/password, true]
+Possible solutions: verifyMatch(java.lang.String, java.lang.String, boolean), verifyMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), verifyNotMatch(java.lang.String, java.lang.String, boolean), verifyNotMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)
+	at Verify user can Login with wrong email correct password.run(Verify user can Login with wrong email correct password:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572267936401.run(TempTestSuite1572267936401.groovy:36)
+
+
+2019-10-28 16:07:14 - [TEST_STEP][PASSED] - openBrowser(loginurl): Browser is opened with url: 'http://qa.copiakenya.com/web/login'
+
+2019-10-28 16:07:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-28 16:07:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-28 16:07:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qa.copiakenya.com/web/login'
+
+2019-10-28 16:07:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-28 16:07:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-28 16:07:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-28 16:07:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-28 16:07:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Email Input Field"), email): Text 'erpsofs' is set on object 'Object Repository/Login Objects/Email Input Field'
+
+2019-10-28 16:07:28 - [MESSAGE][PASSED] - Text 'erpsofs' is set on object 'Object Repository/Login Objects/Email Input Field'
+
+2019-10-28 16:07:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Password Input Field"), password): Text 'SuP3r@dm!N' is set on object 'Object Repository/Login Objects/Password Input Field'
+
+2019-10-28 16:07:28 - [MESSAGE][PASSED] - Text 'SuP3r@dm!N' is set on object 'Object Repository/Login Objects/Password Input Field'
+
+2019-10-28 16:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Login Objects/Button Login")): Object: 'Object Repository/Login Objects/Button Login' is clicked on
+
+2019-10-28 16:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects/Button Login' is clicked on
+
+2019-10-28 16:07:29 - [TEST_STEP][PASSED] - title = verifyElementText(findTestObject("Login Objects/Alert error message for wrong credentials"), "Wrong login/password"): Actual text and expected text of test object 'Object Repository/Login Objects/Alert error message for wrong credentials' are matched.
+
+2019-10-28 16:07:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Objects/Alert error message for wrong credentials' are matched.
+
+2019-10-28 16:07:30 - [TEST_STEP][PASSED] - verifyMatch(title, "Wrong login/password", true): null]]></system-out>
+         <system-err><![CDATA[2019-10-28 16:07:13 - [TEST_CASE][ERROR] - Test Cases/Login Test Cases/Verify user can Login with wrong email correct password: Test Cases/Login Test Cases/Verify user can Login with wrong email correct password FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch() is applicable for argument types: (java.lang.Boolean, java.lang.String, java.lang.Boolean) values: [true, Wrong login/password, true]
+Possible solutions: verifyMatch(java.lang.String, java.lang.String, boolean), verifyMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), verifyNotMatch(java.lang.String, java.lang.String, boolean), verifyNotMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)
+	at Verify user can Login with wrong email correct password.run(Verify user can Login with wrong email correct password:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572267936401.run(TempTestSuite1572267936401.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-28 16:07:13 - [TEST_SUITE][ERROR] - verify user can login with wrong email correct password: Test Cases/Login Test Cases/Verify user can Login with wrong email correct password FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch() is applicable for argument types: (java.lang.Boolean, java.lang.String, java.lang.Boolean) values: [true, Wrong login/password, true]
+Possible solutions: verifyMatch(java.lang.String, java.lang.String, boolean), verifyMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), verifyNotMatch(java.lang.String, java.lang.String, boolean), verifyNotMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)
+	at Verify user can Login with wrong email correct password.run(Verify user can Login with wrong email correct password:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572267936401.run(TempTestSuite1572267936401.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-10-28 16:07:13 - [TEST_SUITE][ERROR] - verify user can login with wrong email correct password: Test Cases/Login Test Cases/Verify user can Login with wrong email correct password FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyMatch() is applicable for argument types: (java.lang.Boolean, java.lang.String, java.lang.Boolean) values: [true, Wrong login/password, true]
+Possible solutions: verifyMatch(java.lang.String, java.lang.String, boolean), verifyMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), verifyNotMatch(java.lang.String, java.lang.String, boolean), verifyNotMatch(java.lang.String, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling)
+	at Verify user can Login with wrong email correct password.run(Verify user can Login with wrong email correct password:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1572267936401.run(TempTestSuite1572267936401.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

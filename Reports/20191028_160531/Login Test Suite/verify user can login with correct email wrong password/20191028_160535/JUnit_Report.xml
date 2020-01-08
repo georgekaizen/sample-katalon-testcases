@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="verify user can login with correct email wrong password" time="18.305" tests="1" failures="0" errors="0">
+   <testsuite name="verify user can login with correct email wrong password" tests="1" failures="0" errors="0" time="18.305" timestamp="2019-10-28 16:06:52" hostname="Copia George - DESKTOP-UJOHP7E" id="Test Suites/Login Test Suite/verify user can login with correct email wrong password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191028_160531\\Login Test Suite\\verify user can login with correct email wrong password\\20191028_160535"/>
+         <property name="logFiles" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191028_160531\\Login Test Suite\\verify user can login with correct email wrong password\\20191028_160535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Copia George - DESKTOP-UJOHP7E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 77.0.3865.120"/>
+         <property name="hostAddress" value="192.168.5.178"/>
+         <property name="sessionId" value="7b2b6f243ed150eefbd0360e0d32151f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Cases/Verify user can Login using correct email wrong password" time="16.737" classname="Test Cases/Login Test Cases/Verify user can Login using correct email wrong password" status="PASSED">
+         <system-out><![CDATA[2019-10-28 16:06:53 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Verify user can Login using correct email wrong password: Test Cases/Login Test Cases/Verify user can Login using correct email wrong password
+
+2019-10-28 16:06:53 - [TEST_STEP][PASSED] - openBrowser(loginurl): Browser is opened with url: 'http://qa.copiakenya.com/web/login'
+
+2019-10-28 16:06:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-28 16:06:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-28 16:07:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qa.copiakenya.com/web/login'
+
+2019-10-28 16:07:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-10-28 16:07:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-10-28 16:07:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-10-28 16:07:07 - [MESSAGE][PASSED] - Current window maximized
+
+2019-10-28 16:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Email Input Field"), email): Text 'admin' is set on object 'Object Repository/Login Objects/Email Input Field'
+
+2019-10-28 16:07:07 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Objects/Email Input Field'
+
+2019-10-28 16:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Password Input Field"), password): Text '123456' is set on object 'Object Repository/Login Objects/Password Input Field'
+
+2019-10-28 16:07:08 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login Objects/Password Input Field'
+
+2019-10-28 16:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Login Objects/Button Login")): Object: 'Object Repository/Login Objects/Button Login' is clicked on
+
+2019-10-28 16:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects/Button Login' is clicked on
+
+2019-10-28 16:07:09 - [TEST_STEP][PASSED] - title = verifyElementText(findTestObject("Login Objects/Alert error message for wrong credentials"), "Wrong login/password"): Actual text and expected text of test object 'Object Repository/Login Objects/Alert error message for wrong credentials' are matched.
+
+2019-10-28 16:07:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Objects/Alert error message for wrong credentials' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-28 16:06:52 - [TEST_SUITE][PASSED] - verify user can login with correct email wrong password: Test Cases/Login Test Cases/Verify user can Login using correct email wrong password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

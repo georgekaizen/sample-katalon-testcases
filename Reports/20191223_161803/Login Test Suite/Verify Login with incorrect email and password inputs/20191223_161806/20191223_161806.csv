@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify Login with incorrect email and password inputs,Chrome 79.0.3945.88,,,2019-12-23 16:19:05,2019-12-23 16:19:59,54.394s,FAILED
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login with incorrect email and password inputs,Chrome 79.0.3945.88,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-12-23 16:19:05,2019-12-23 16:19:59,53.984s,FAILED
+Start listener action : executeRows,Chrome 79.0.3945.88,,,2019-12-23 16:19:05,2019-12-23 16:19:06,0.707s,PASSED
+openBrowser(loginurl),Chrome 79.0.3945.88,,,2019-12-23 16:19:06,2019-12-23 16:19:13,7.117s,PASSED
+delay(2),Chrome 79.0.3945.88,,,2019-12-23 16:19:13,2019-12-23 16:19:15,2.038s,PASSED
+maximizeWindow(),Chrome 79.0.3945.88,,,2019-12-23 16:19:15,2019-12-23 16:19:19,4.139s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Chrome 79.0.3945.88,,,2019-12-23 16:19:19,2019-12-23 16:19:59,39.587s,FAILED
+Start listener action : addFailedTCToList,Chrome 79.0.3945.88,,,2019-12-23 16:19:59,2019-12-23 16:19:59,0.002s,PASSED

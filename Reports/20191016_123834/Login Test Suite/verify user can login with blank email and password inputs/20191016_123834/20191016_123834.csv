@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+verify user can login with blank email and password inputs,Firefox 69.0,,,2019-10-16 12:38:36,2019-10-16 12:38:47,10.181s,INCOMPLETE
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs,Firefox 69.0,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-10-16 12:38:37,2019-10-16 12:38:47,9.834s,PASSED
+openBrowser(loginurl),Firefox 69.0,,,2019-10-16 12:38:37,2019-10-16 12:38:44,6.465s,PASSED
+delay(2),Firefox 69.0,,,2019-10-16 12:38:44,2019-10-16 12:38:46,2.050s,PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-16 12:38:46,2019-10-16 12:38:46,0.068s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Firefox 69.0,,,2019-10-16 12:38:46,2019-10-16 12:38:46,0.318s,PASSED
+"setText(findTestObject(""Login Objects/Password Input Field""), password)",Firefox 69.0,,,2019-10-16 12:38:46,2019-10-16 12:38:46,0.097s,PASSED
+"click(findTestObject(""Login Objects/Button Login""))",Firefox 69.0,,,2019-10-16 12:38:46,2019-10-16 12:38:46,0.355s,PASSED
+title = getWindowTitle(),Firefox 69.0,,,2019-10-16 12:38:46,2019-10-16 12:38:47,0.053s,PASSED
+"verifyMatch(title, ""Odoo"", false)",Firefox 69.0,,,2019-10-16 12:38:47,2019-10-16 12:38:47,0.013s,PASSED

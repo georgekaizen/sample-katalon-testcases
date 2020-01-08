@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="validate login with correct email and password" time="25" tests="1" failures="0" errors="0">
+    <testsuite name="validate login with correct email and password" tests="1" failures="0" errors="0" time="25" timestamp="2019-10-22 13:05:49" hostname="Copia George - DESKTOP-UJOHP7E" id="Test Suites/Login Test Suite/validate login with correct email and password">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191022_130540\\Login Test Suite\\validate login with correct email and password\\20191022_130541"/>
+            <property name="logFiles" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191022_130540\\Login Test Suite\\validate login with correct email and password\\20191022_130541\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Copia George - DESKTOP-UJOHP7E"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Chrome 77.0.3865.120"/>
+            <property name="hostAddress" value="192.168.5.178"/>
+            <property name="sessionId" value="8bde763e5422e70ff2cca77d7f6e6fcd"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Login Test Cases/Validate user can Successfully Login" classname="Test Cases/Login Test Cases/Validate user can Successfully Login" status="PASSED">
+            <system-out>2019-10-22 13:05:50 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Validate user can Successfully Login: Test Cases/Login Test Cases/Validate user can Successfully Login&#xD;
+&#xD;
+2019-10-22 13:05:51 - [TEST_STEP][PASSED] - openBrowser(loginurl): Browser is opened with url: 'http://qa.copiakenya.com/web/login'&#xD;
+&#xD;
+2019-10-22 13:05:51 - [MESSAGE][INFO] - Starting 'Chrome' driver&#xD;
+&#xD;
+2019-10-22 13:05:51 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-10-22 13:06:03 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qa.copiakenya.com/web/login'&#xD;
+&#xD;
+2019-10-22 13:06:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)&#xD;
+&#xD;
+2019-10-22 13:06:08 - [MESSAGE][PASSED] - Delayed 5 second(s)&#xD;
+&#xD;
+2019-10-22 13:06:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-10-22 13:06:12 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-10-22 13:06:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Email Input Field"), email): Text 'admin' is set on object 'Object Repository/Login Objects/Email Input Field'&#xD;
+&#xD;
+2019-10-22 13:06:12 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Objects/Email Input Field'&#xD;
+&#xD;
+2019-10-22 13:06:12 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Password Input Field"), password): Text 'SuP3r@dm!N' is set on object 'Object Repository/Login Objects/Password Input Field'&#xD;
+&#xD;
+2019-10-22 13:06:13 - [MESSAGE][PASSED] - Text 'SuP3r@dm!N' is set on object 'Object Repository/Login Objects/Password Input Field'&#xD;
+&#xD;
+2019-10-22 13:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Login Objects/Button Login")): Object: 'Object Repository/Login Objects/Button Login' is clicked on&#xD;
+&#xD;
+2019-10-22 13:06:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects/Button Login' is clicked on&#xD;
+&#xD;
+2019-10-22 13:06:15 - [TEST_STEP][PASSED] - title = getWindowTitle(): Current window's title is: 'Odoo'&#xD;
+&#xD;
+2019-10-22 13:06:15 - [MESSAGE][PASSED] - Current window's title is: 'Odoo'&#xD;
+&#xD;
+2019-10-22 13:06:15 - [TEST_STEP][PASSED] - verifyMatch(title, "Odoo", false): Actual text 'Odoo' and expected text 'Odoo' are matched &#xD;
+&#xD;
+2019-10-22 13:06:15 - [MESSAGE][PASSED] - Actual text 'Odoo' and expected text 'Odoo' are matched</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-22 13:05:49 - [TEST_SUITE][INCOMPLETE] - validate login with correct email and password: null</system-out>
+        <system-err>2019-10-22 13:05:49 - [TEST_SUITE][INCOMPLETE] - validate login with correct email and password: null</system-err>
+    </testsuite>
+</testsuites>

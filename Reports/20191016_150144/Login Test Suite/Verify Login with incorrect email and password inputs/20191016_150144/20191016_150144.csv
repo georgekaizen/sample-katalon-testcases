@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify Login with incorrect email and password inputs,Firefox 69.0,,,2019-10-16 15:01:47,2019-10-16 15:01:57,10.511s,INCOMPLETE
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login with incorrect email and password inputs,Firefox 69.0,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-10-16 15:01:47,2019-10-16 15:01:57,10.116s,ERROR
+openBrowser(loginurl),Firefox 69.0,,,2019-10-16 15:01:47,2019-10-16 15:01:54,6.766s,PASSED
+delay(2),Firefox 69.0,,,2019-10-16 15:01:54,2019-10-16 15:01:56,2.045s,PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-16 15:01:56,2019-10-16 15:01:56,0.045s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Firefox 69.0,,,2019-10-16 15:01:56,2019-10-16 15:01:56,0.206s,PASSED
+"setText(findTestObject(""Login Objects/Password Input Field""), password)",Firefox 69.0,,,2019-10-16 15:01:56,2019-10-16 15:01:56,0.119s,PASSED
+"click(findTestObject(""Login Objects/Button Login""))",Firefox 69.0,,,2019-10-16 15:01:56,2019-10-16 15:01:57,0.354s,PASSED
+"title = verifyElementText(findTestObject(""Login Objects/Alert error message for wrong credentials""), ""Wrong login/password"")",Firefox 69.0,,,2019-10-16 15:01:57,2019-10-16 15:01:57,0.111s,PASSED
+"verifyMatch(title, ""Wrong login/password"", true)",Firefox 69.0,,,2019-10-16 15:01:57,2019-10-16 15:01:57,0.001s,PASSED

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+verify user can login with blank email and password inputs,Chrome 77.0.3865.120,,,2019-10-16 16:22:32,2019-10-16 16:22:47,15.280s,INCOMPLETE
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs,Chrome 77.0.3865.120,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-10-16 16:22:32,2019-10-16 16:22:47,14.956s,PASSED
+openBrowser(loginurl),Chrome 77.0.3865.120,,,2019-10-16 16:22:32,2019-10-16 16:22:40,7.638s,PASSED
+delay(2),Chrome 77.0.3865.120,,,2019-10-16 16:22:40,2019-10-16 16:22:42,2.047s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-16 16:22:42,2019-10-16 16:22:46,4.222s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Chrome 77.0.3865.120,,,2019-10-16 16:22:46,2019-10-16 16:22:46,0.230s,PASSED
+"setText(findTestObject(""Login Objects/Password Input Field""), password)",Chrome 77.0.3865.120,,,2019-10-16 16:22:46,2019-10-16 16:22:47,0.135s,PASSED
+"click(findTestObject(""Login Objects/Button Login""))",Chrome 77.0.3865.120,,,2019-10-16 16:22:47,2019-10-16 16:22:47,0.198s,PASSED
+"verifyElementPresent(findTestObject(""Login Objects/Button Login""), 0)",Chrome 77.0.3865.120,,,2019-10-16 16:22:47,2019-10-16 16:22:47,0.090s,PASSED

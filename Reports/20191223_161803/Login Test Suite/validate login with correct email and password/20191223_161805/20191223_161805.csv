@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+validate login with correct email and password,Chrome 79.0.3945.88,contains all the test cases for login,,2019-12-23 16:18:11,2019-12-23 16:19:01,49.314s,FAILED
+,,,,,,,
+Test Cases/Login Test Cases/Validate user can Successfully Login,Chrome 79.0.3945.88,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-12-23 16:18:12,2019-12-23 16:19:01,48.876s,FAILED
+Start listener action : executeRows,Chrome 79.0.3945.88,,,2019-12-23 16:18:12,2019-12-23 16:18:13,0.860s,PASSED
+openBrowser(loginurl),Chrome 79.0.3945.88,,,2019-12-23 16:18:13,2019-12-23 16:18:20,7.195s,PASSED
+delay(5),Chrome 79.0.3945.88,,,2019-12-23 16:18:20,2019-12-23 16:18:25,5.051s,PASSED
+maximizeWindow(),Chrome 79.0.3945.88,,,2019-12-23 16:18:25,2019-12-23 16:18:29,4.157s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Chrome 79.0.3945.88,,,2019-12-23 16:18:29,2019-12-23 16:19:01,31.276s,FAILED
+Start listener action : addFailedTCToList,Chrome 79.0.3945.88,,,2019-12-23 16:19:01,2019-12-23 16:19:01,0.003s,PASSED

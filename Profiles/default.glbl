@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>url for QA instance on the Copia Erp</description>
+      <initValue>'http://qa.copiakenya.com/web/login'</initValue>
+      <name>loginurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Url to access the ofs website</description>
+      <initValue>'http://192.168.1.8:19010/web/'</initValue>
+      <name>ofsurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uat.copiakenya.com/web/login'</initValue>
+      <name>uaturl</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

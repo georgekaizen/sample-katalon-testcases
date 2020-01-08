@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="verify user can login with correct email wrong password" time="11" tests="1" failures="0" errors="0">
+    <testsuite name="verify user can login with correct email wrong password" tests="1" failures="0" errors="0" time="11" timestamp="2019-10-16 15:52:46" hostname="Copia George - DESKTOP-UJOHP7E" id="Test Suites/Login Test Suite/verify user can login with correct email wrong password">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191016_155243\\Login Test Suite\\verify user can login with correct email wrong password\\20191016_155243"/>
+            <property name="logFiles" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191016_155243\\Login Test Suite\\verify user can login with correct email wrong password\\20191016_155243\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Copia George - DESKTOP-UJOHP7E"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 69.0"/>
+            <property name="hostAddress" value="192.168.5.178"/>
+            <property name="sessionId" value="03ed2c34-6937-45d8-b53c-cbdf16041793"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Login Test Cases/Verify user can Login using correct email wrong password" classname="Test Cases/Login Test Cases/Verify user can Login using correct email wrong password" status="PASSED">
+            <system-out>2019-10-16 15:52:46 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Verify user can Login using correct email wrong password: Test Cases/Login Test Cases/Verify user can Login using correct email wrong password&#xD;
+&#xD;
+2019-10-16 15:52:47 - [TEST_STEP][PASSED] - openBrowser(loginurl): Browser is opened with url: 'http://qa.copiakenya.com/web/login'&#xD;
+&#xD;
+2019-10-16 15:52:47 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-10-16 15:52:47 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-10-16 15:52:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qa.copiakenya.com/web/login'&#xD;
+&#xD;
+2019-10-16 15:52:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-10-16 15:52:56 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-10-16 15:52:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized&#xD;
+&#xD;
+2019-10-16 15:52:56 - [MESSAGE][PASSED] - Current window maximized&#xD;
+&#xD;
+2019-10-16 15:52:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Email Input Field"), email): Text 'admin' is set on object 'Object Repository/Login Objects/Email Input Field'&#xD;
+&#xD;
+2019-10-16 15:52:56 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Objects/Email Input Field'&#xD;
+&#xD;
+2019-10-16 15:52:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Password Input Field"), password): Text '123456' is set on object 'Object Repository/Login Objects/Password Input Field'&#xD;
+&#xD;
+2019-10-16 15:52:56 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Login Objects/Password Input Field'&#xD;
+&#xD;
+2019-10-16 15:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Login Objects/Button Login")): Object: 'Object Repository/Login Objects/Button Login' is clicked on&#xD;
+&#xD;
+2019-10-16 15:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects/Button Login' is clicked on&#xD;
+&#xD;
+2019-10-16 15:52:57 - [TEST_STEP][PASSED] - title = verifyElementText(findTestObject("Login Objects/Alert error message for wrong credentials"), "Wrong login/password"): Actual text and expected text of test object 'Object Repository/Login Objects/Alert error message for wrong credentials' are matched.&#xD;
+&#xD;
+2019-10-16 15:52:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Objects/Alert error message for wrong credentials' are matched.</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-16 15:52:46 - [TEST_SUITE][INCOMPLETE] - verify user can login with correct email wrong password: null</system-out>
+        <system-err>2019-10-16 15:52:46 - [TEST_SUITE][INCOMPLETE] - verify user can login with correct email wrong password: null</system-err>
+    </testsuite>
+</testsuites>

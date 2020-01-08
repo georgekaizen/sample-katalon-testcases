@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify Login with incorrect email and password inputs,Firefox 69.0,,,2019-10-16 14:46:09,2019-10-16 14:46:20,10.804s,INCOMPLETE
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login with incorrect email and password inputs,Firefox 69.0,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-10-16 14:46:09,2019-10-16 14:46:20,10.406s,FAILED
+openBrowser(loginurl),Firefox 69.0,,,2019-10-16 14:46:10,2019-10-16 14:46:17,7.067s,PASSED
+delay(2),Firefox 69.0,,,2019-10-16 14:46:17,2019-10-16 14:46:19,2.049s,PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-16 14:46:19,2019-10-16 14:46:19,0.053s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Firefox 69.0,,,2019-10-16 14:46:19,2019-10-16 14:46:19,0.227s,PASSED
+"setText(findTestObject(""Login Objects/Password Input Field""), password)",Firefox 69.0,,,2019-10-16 14:46:19,2019-10-16 14:46:19,0.119s,PASSED
+"click(findTestObject(""Login Objects/Button Login""))",Firefox 69.0,,,2019-10-16 14:46:19,2019-10-16 14:46:19,0.356s,PASSED
+title = getAlertText(),Firefox 69.0,,,2019-10-16 14:46:19,2019-10-16 14:46:20,0.189s,FAILED

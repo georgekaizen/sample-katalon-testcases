@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate Holiday Creation In Ofs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c610bc50-4f28-4e69-baaf-aac6a7a88d8b</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>e13a8e73-516a-411f-92e6-56562d889fa1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>29313044-6b49-421e-acd3-64ca2ce6ff4a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

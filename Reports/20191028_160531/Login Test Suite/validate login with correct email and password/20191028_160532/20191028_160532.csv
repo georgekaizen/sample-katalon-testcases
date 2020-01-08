@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+validate login with correct email and password,Chrome 77.0.3865.120,contains all the test cases for login,,2019-10-28 16:05:44,2019-10-28 16:06:07,22.862s,PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Validate user can Successfully Login,Chrome 77.0.3865.120,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-10-28 16:05:44,2019-10-28 16:06:07,22.305s,PASSED
+openBrowser(loginurl),Chrome 77.0.3865.120,,,2019-10-28 16:05:45,2019-10-28 16:05:55,9.859s,PASSED
+delay(5),Chrome 77.0.3865.120,,,2019-10-28 16:05:55,2019-10-28 16:06:00,5.052s,PASSED
+maximizeWindow(),Chrome 77.0.3865.120,,,2019-10-28 16:06:00,2019-10-28 16:06:04,4.201s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Chrome 77.0.3865.120,,,2019-10-28 16:06:04,2019-10-28 16:06:05,0.532s,PASSED
+"setText(findTestObject(""Login Objects/Password Input Field""), password)",Chrome 77.0.3865.120,,,2019-10-28 16:06:05,2019-10-28 16:06:05,0.462s,PASSED
+"click(findTestObject(""Login Objects/Button Login""))",Chrome 77.0.3865.120,,,2019-10-28 16:06:05,2019-10-28 16:06:07,1.522s,PASSED
+title = getWindowTitle(),Chrome 77.0.3865.120,,,2019-10-28 16:06:07,2019-10-28 16:06:07,0.211s,PASSED
+"verifyMatch(title, ""Odoo"", false)",Chrome 77.0.3865.120,,,2019-10-28 16:06:07,2019-10-28 16:06:07,0.008s,PASSED

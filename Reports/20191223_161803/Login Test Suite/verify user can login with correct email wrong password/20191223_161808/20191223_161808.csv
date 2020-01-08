@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+verify user can login with correct email wrong password,Chrome 79.0.3945.88,,,2019-12-23 16:20:54,2019-12-23 16:21:19,24.665s,PASSED
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login using correct email wrong password,Chrome 79.0.3945.88,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-12-23 16:20:55,2019-12-23 16:21:19,24.262s,PASSED
+Start listener action : executeRows,Chrome 79.0.3945.88,,,2019-12-23 16:20:55,2019-12-23 16:20:56,0.813s,PASSED
+openBrowser(uaturl),Chrome 79.0.3945.88,,,2019-12-23 16:20:56,2019-12-23 16:21:03,7.084s,PASSED
+delay(2),Chrome 79.0.3945.88,,,2019-12-23 16:21:03,2019-12-23 16:21:05,2.046s,PASSED
+maximizeWindow(),Chrome 79.0.3945.88,,,2019-12-23 16:21:05,2019-12-23 16:21:09,4.149s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Chrome 79.0.3945.88,,,2019-12-23 16:21:09,2019-12-23 16:21:10,0.287s,PASSED
+"setText(findTestObject(""Login Objects/Password Input Field""), password)",Chrome 79.0.3945.88,,,2019-12-23 16:21:10,2019-12-23 16:21:10,0.172s,PASSED
+"click(findTestObject(""Login Objects/Button Login""))",Chrome 79.0.3945.88,,,2019-12-23 16:21:10,2019-12-23 16:21:19,9.212s,PASSED
+"title = verifyElementText(findTestObject(""Login Objects/Alert error message for wrong credentials""), ""Wrong login/password"")",Chrome 79.0.3945.88,,,2019-12-23 16:21:19,2019-12-23 16:21:19,0.195s,PASSED
+Start listener action : addFailedTCToList,Chrome 79.0.3945.88,,,2019-12-23 16:21:19,2019-12-23 16:21:19,0.003s,PASSED

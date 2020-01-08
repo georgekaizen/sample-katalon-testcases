@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="verify user can login with blank email and password inputs" time="18.325" tests="1" failures="0" errors="0">
+   <testsuite name="verify user can login with blank email and password inputs" tests="1" failures="0" errors="0" time="18.325" timestamp="2019-12-02 12:27:17" hostname="Copia George - DESKTOP-UJOHP7E" id="Test Suites/Login Test Suite/verify user can login with blank email and password inputs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191202_122612\\Login Test Suite\\verify user can login with blank email and password inputs\\20191202_122616"/>
+         <property name="logFiles" value="C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191202_122612\\Login Test Suite\\verify user can login with blank email and password inputs\\20191202_122616\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Copia George - DESKTOP-UJOHP7E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="192.168.5.115"/>
+         <property name="sessionId" value="3c5b0c92a5c2294f9c410507c9079083"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs" time="16.633" classname="Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs" status="PASSED">
+         <system-out><![CDATA[2019-12-02 12:27:17 - [TEST_CASE][PASSED] - Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs: Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs
+
+2019-12-02 12:27:18 - [TEST_STEP][PASSED] - openBrowser(loginurl): Browser is opened with url: 'http://qa.copiakenya.com/web/login'
+
+2019-12-02 12:27:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-02 12:27:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-02 12:27:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://qa.copiakenya.com/web/login'
+
+2019-12-02 12:27:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-12-02 12:27:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-02 12:27:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-02 12:27:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-02 12:27:32 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Email Input Field"), email): Text '' is set on object 'Object Repository/Login Objects/Email Input Field'
+
+2019-12-02 12:27:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Objects/Email Input Field'
+
+2019-12-02 12:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login Objects/Password Input Field"), password): Text '' is set on object 'Object Repository/Login Objects/Password Input Field'
+
+2019-12-02 12:27:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login Objects/Password Input Field'
+
+2019-12-02 12:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Login Objects/Button Login")): Object: 'Object Repository/Login Objects/Button Login' is clicked on
+
+2019-12-02 12:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects/Button Login' is clicked on
+
+2019-12-02 12:27:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Objects/Button Login"), 0): Object 'Object Repository/Login Objects/Button Login' is present
+
+2019-12-02 12:27:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-12-02 12:27:34 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects/Button Login' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-02 12:27:17 - [TEST_SUITE][PASSED] - verify user can login with blank email and password inputs: Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

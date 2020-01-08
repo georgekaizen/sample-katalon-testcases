@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing users can login with correct credentials supplied.</description>
+   <name>Validate user can Successfully Login</name>
+   <tag>TcLoginHappyPath</tag>
+   <comment></comment>
+   <testCaseGuid>8321afb2-ae46-4217-89d5-625a1e5dc4e9</testCaseGuid>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>3f41a089-5c27-442c-a23c-66f812632b0f</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SuP3r@dm!N'</defaultValue>
+      <description></description>
+      <id>a9c1a7d7-2b1a-4194-b8d6-77b61351aa5c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

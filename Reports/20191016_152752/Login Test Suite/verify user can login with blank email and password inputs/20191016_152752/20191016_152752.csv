@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+verify user can login with blank email and password inputs,Firefox 69.0,,,2019-10-16 15:27:55,2019-10-16 15:28:06,10.927s,INCOMPLETE
+,,,,,,,
+Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs,Firefox 69.0,Testing users can login with correct credentials supplied.,TcLoginHappyPath,2019-10-16 15:27:55,2019-10-16 15:28:06,10.584s,PASSED
+openBrowser(loginurl),Firefox 69.0,,,2019-10-16 15:27:56,2019-10-16 15:28:03,7.156s,PASSED
+delay(2),Firefox 69.0,,,2019-10-16 15:28:03,2019-10-16 15:28:05,2.061s,PASSED
+maximizeWindow(),Firefox 69.0,,,2019-10-16 15:28:05,2019-10-16 15:28:05,0.069s,PASSED
+"setText(findTestObject(""Login Objects/Email Input Field""), email)",Firefox 69.0,,,2019-10-16 15:28:05,2019-10-16 15:28:05,0.325s,PASSED
+"setText(findTestObject(""Login Objects/Password Input Field""), password)",Firefox 69.0,,,2019-10-16 15:28:05,2019-10-16 15:28:05,0.101s,PASSED
+"click(findTestObject(""Login Objects/Button Login""))",Firefox 69.0,,,2019-10-16 15:28:05,2019-10-16 15:28:06,0.336s,PASSED
+"verifyElementPresent(findTestObject(""Login Objects/Button Login""), 0)",Firefox 69.0,,,2019-10-16 15:28:06,2019-10-16 15:28:06,0.119s,PASSED

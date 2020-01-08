@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875329</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login Test Suite/verify user can login with blank email and password inputs</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">verify user can login with blank email and password inputs</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login Test Suite/verify user can login with blank email and password inputs</property>
+</record>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875352</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Copia George - DESKTOP-UJOHP7E</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Copia George - DESKTOP-UJOHP7E</property>
+</record>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875353</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875354</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.5.178</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.5.178</property>
+</record>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875356</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.3.3.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.3.3.11</property>
+</record>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875672</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs</property>
+  <property name="description">Testing users can login with correct credentials supplied.</property>
+  <property name="id">Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs</property>
+  <property name="source">C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Test Cases\\Login Test Cases\\Verify user can Login with blank Email and password inputs.tc</property>
+  <property name="tag">TcLoginHappyPath</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875798</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) email = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:27:55</date>
+  <millis>1571228875817</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) password = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:27:56</date>
+  <millis>1571228876078</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(loginurl)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-10-16T15:27:56</date>
+  <millis>1571228876479</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Firefox&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:27:56</date>
+  <millis>1571228876604</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:02</date>
+  <millis>1571228882554</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 27d45ff2-df61-47d9-8a38-217d2f4442db</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">27d45ff2-df61-47d9-8a38-217d2f4442db</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:02</date>
+  <millis>1571228882574</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Firefox 69.0</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Firefox 69.0</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:02</date>
+  <millis>1571228882575</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:02</date>
+  <millis>1571228882576</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:02</date>
+  <millis>1571228882577</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:03</date>
+  <millis>1571228883233</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;http://qa.copiakenya.com/web/login&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:03</date>
+  <millis>1571228883234</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(loginurl)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:03</date>
+  <millis>1571228883234</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885290</millis>
+  <sequence>25</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885295</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885305</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885373</millis>
+  <sequence>29</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885374</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885374</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login Objects/Email Input Field\&amp;quot;), email)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885698</millis>
+  <sequence>40</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/Login Objects/Email Input Field&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885699</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login Objects/Email Input Field\&amp;quot;), email)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885700</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Login Objects/Password Input Field\&amp;quot;), password)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885800</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;&amp;apos; is set on object &amp;apos;Object Repository/Login Objects/Password Input Field&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885801</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Login Objects/Password Input Field\&amp;quot;), password)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:05</date>
+  <millis>1571228885801</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Login Objects/Button Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886136</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Login Objects/Button Login&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886137</millis>
+  <sequence>61</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Login Objects/Button Login\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886137</millis>
+  <sequence>62</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(\&amp;quot;Login Objects/Button Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886240</millis>
+  <sequence>66</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;30&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886255</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Login Objects/Button Login&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886256</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(\&amp;quot;Login Objects/Button Login\&amp;quot;), 0)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886256</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886256</millis>
+  <sequence>72</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login Test Cases/Verify user can Login with blank Email and password inputs</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886259</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886461</millis>
+  <sequence>155</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191016_152752\\Login Test Suite\\verify user can login with blank email and password inputs\\20191016_152752...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886759</millis>
+  <sequence>156</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886759</millis>
+  <sequence>157</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191016_152752\\Login Test Suite\\verify user can login with blank email and password inputs\\20191016_152752...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886807</millis>
+  <sequence>158</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886807</millis>
+  <sequence>159</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating JUnit report folder at: C:\\Users\\Copia George\\Katalon Studio\\Copia ERP Login Test Cases\\Reports\\20191016_152752\\Login Test Suite\\verify user can login with blank email and password inputs\\20191016_152752...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886956</millis>
+  <sequence>160</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>JUnit report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:06</date>
+  <millis>1571228886957</millis>
+  <sequence>162</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:28:09</date>
+  <millis>1571228889997</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Login Test Suite/verify user can login with blank email and password inputs</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-10-16T15:49:07</date>
+  <millis>1571230147054</millis>
+  <sequence>232</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/Correct email wrong password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:49:07</date>
+  <millis>1571230147059</millis>
+  <sequence>233</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:49:07</date>
+  <millis>1571230147059</millis>
+  <sequence>234</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet3&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:49:12</date>
+  <millis>1571230152947</millis>
+  <sequence>235</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/Correct email wrong password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:49:12</date>
+  <millis>1571230152958</millis>
+  <sequence>236</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:49:12</date>
+  <millis>1571230152960</millis>
+  <sequence>237</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet3&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:52:43</date>
+  <millis>1571230363362</millis>
+  <sequence>238</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>111</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/Correct email wrong password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:52:43</date>
+  <millis>1571230363364</millis>
+  <sequence>239</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>111</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T15:52:43</date>
+  <millis>1571230363364</millis>
+  <sequence>240</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>111</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet3&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:03:48</date>
+  <millis>1571231028167</millis>
+  <sequence>421</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/wrong email correct password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:03:48</date>
+  <millis>1571231028177</millis>
+  <sequence>422</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:03:48</date>
+  <millis>1571231028178</millis>
+  <sequence>423</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet4&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:03:53</date>
+  <millis>1571231033761</millis>
+  <sequence>424</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/wrong email correct password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:03:53</date>
+  <millis>1571231033767</millis>
+  <sequence>425</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:03:53</date>
+  <millis>1571231033770</millis>
+  <sequence>426</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet4&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:04:20</date>
+  <millis>1571231060752</millis>
+  <sequence>427</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>209</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/wrong email correct password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:04:20</date>
+  <millis>1571231060754</millis>
+  <sequence>428</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>209</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:04:20</date>
+  <millis>1571231060754</millis>
+  <sequence>429</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>209</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet4&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:41</date>
+  <millis>1571232101427</millis>
+  <sequence>618</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/Test Data Login&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:41</date>
+  <millis>1571232101428</millis>
+  <sequence>619</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:41</date>
+  <millis>1571232101429</millis>
+  <sequence>620</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:41</date>
+  <millis>1571232101549</millis>
+  <sequence>621</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/Incorrect email and password test data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:41</date>
+  <millis>1571232101551</millis>
+  <sequence>622</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:41</date>
+  <millis>1571232101551</millis>
+  <sequence>623</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet2&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:43</date>
+  <millis>1571232103776</millis>
+  <sequence>624</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/Correct email wrong password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:43</date>
+  <millis>1571232103777</millis>
+  <sequence>625</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:43</date>
+  <millis>1571232103778</millis>
+  <sequence>626</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet3&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:44</date>
+  <millis>1571232104898</millis>
+  <sequence>627</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login Test Data/wrong email correct password data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:44</date>
+  <millis>1571232104900</millis>
+  <sequence>628</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-16T16:21:44</date>
+  <millis>1571232104900</millis>
+  <sequence>629</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>266</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Copia George\\Documents\\login.xlsx&amp;apos; and sheet name &amp;apos;Sheet4&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-10-17T10:50:41</date>
+  <millis>1571298641406</millis>
+  <sequence>1855</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>482</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har947219936130752282\\requests\\ModalContext\\0.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">6833fba5-ec7a-477e-b005-bd4c20bce9db</property>
+</record>
+<record>
+  <date>2019-10-17T11:05:35</date>
+  <millis>1571299535075</millis>
+  <sequence>1856</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>525</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har3065657294411081088\\requests\\ModalContext\\1.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">3782ea45-fb0d-4edf-ae96-a4b9d98cb506</property>
+</record>
+<record>
+  <date>2019-10-17T11:15:18</date>
+  <millis>1571300118041</millis>
+  <sequence>1857</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>534</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har6708307210913520769\\requests\\ModalContext\\2.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">7eed260d-4890-44ad-9a4b-e8a118261485</property>
+</record>
+<record>
+  <date>2019-10-17T11:15:36</date>
+  <millis>1571300136113</millis>
+  <sequence>1858</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>539</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har7919757643747179224\\requests\\ModalContext\\3.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">8f4d242e-c46c-41ef-a8d4-c7e9311832d0</property>
+</record>
+<record>
+  <date>2019-10-17T11:17:09</date>
+  <millis>1571300229247</millis>
+  <sequence>1859</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>546</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har1686640167062235113\\requests\\ModalContext\\4.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">a30ced72-a4e5-41d2-93ca-63b4d346ad2d</property>
+</record>
+<record>
+  <date>2019-10-17T11:18:38</date>
+  <millis>1571300318160</millis>
+  <sequence>1860</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>566</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har31259340128826525\\requests\\ModalContext\\5.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e6d5bc6b-ba91-4206-aebe-a81ab3d4c2c4</property>
+</record>
+<record>
+  <date>2019-10-17T11:19:07</date>
+  <millis>1571300347819</millis>
+  <sequence>1861</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>570</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har3452258322145071957\\requests\\ModalContext\\6.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">bda45012-6a72-43b3-87dc-8965778ded2e</property>
+</record>
+<record>
+  <date>2019-10-17T11:21:13</date>
+  <millis>1571300473802</millis>
+  <sequence>1862</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>576</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har1524653438836784428\\requests\\ModalContext\\7.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">4c3dd86d-df10-4a8f-b0fa-6246e721358c</property>
+</record>
+<record>
+  <date>2019-10-17T11:25:01</date>
+  <millis>1571300701377</millis>
+  <sequence>1863</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>585</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har2944723228711560287\\requests\\ModalContext\\8.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e1760709-ff5c-41df-8a20-8e2cd10da5aa</property>
+</record>
+<record>
+  <date>2019-10-17T11:25:58</date>
+  <millis>1571300758242</millis>
+  <sequence>1864</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>590</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har8791156254404281112\\requests\\ModalContext\\9.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">122c7be1-d22f-473b-b91b-664d152e03c4</property>
+</record>
+<record>
+  <date>2019-10-17T11:27:41</date>
+  <millis>1571300861508</millis>
+  <sequence>1865</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>594</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har7019749918015268307\\requests\\ModalContext\\10.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">fc050091-632f-4c54-950c-48b8ded97720</property>
+</record>
+<record>
+  <date>2019-10-17T11:29:25</date>
+  <millis>1571300965711</millis>
+  <sequence>1866</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>599</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har2400829010908495229\\requests\\ModalContext\\11.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">9c4824c5-a64d-46d7-aa66-f07889f18d6d</property>
+</record>
+<record>
+  <date>2019-10-17T11:32:05</date>
+  <millis>1571301125948</millis>
+  <sequence>1867</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>609</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har842761075416820646\\requests\\ModalContext\\12.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">0ac80d35-3190-47f2-98ba-23192ecb43f8</property>
+</record>
+<record>
+  <date>2019-10-17T11:32:44</date>
+  <millis>1571301164696</millis>
+  <sequence>1868</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>613</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har2109231520486904059\\requests\\ModalContext\\13.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">f4dba26b-e450-4546-95d6-917d8cdc211f</property>
+</record>
+<record>
+  <date>2019-10-17T11:44:14</date>
+  <millis>1571301854197</millis>
+  <sequence>1869</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>620</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har4740583450238795405\\requests\\ModalContext\\14.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">c17e1e93-53a9-4da3-9c2a-7c9aaaf7e755</property>
+</record>
+<record>
+  <date>2019-10-17T11:45:42</date>
+  <millis>1571301942068</millis>
+  <sequence>1870</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>625</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har2509283961682374538\\requests\\ModalContext\\15.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">42d73c90-5075-4835-85ea-50a82d7b8aed</property>
+</record>
+<record>
+  <date>2019-10-17T11:46:20</date>
+  <millis>1571301980580</millis>
+  <sequence>1871</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>629</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har5995526917182992975\\requests\\ModalContext\\16.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">30b494fb-398e-4876-93a6-bb284574e383</property>
+</record>
+<record>
+  <date>2019-10-17T11:46:34</date>
+  <millis>1571301994062</millis>
+  <sequence>1872</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>633</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har8723869023852636349\\requests\\ModalContext\\17.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">df563b72-ce3f-4c0b-bef6-98595aa21bea</property>
+</record>
+<record>
+  <date>2019-10-17T11:47:07</date>
+  <millis>1571302027849</millis>
+  <sequence>1873</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>638</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har6385214402929832264\\requests\\ModalContext\\18.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">9f12ec53-eb61-4d5e-bb9a-80661a303134</property>
+</record>
+<record>
+  <date>2019-10-17T11:47:25</date>
+  <millis>1571302045428</millis>
+  <sequence>1874</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>658</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har697495674179994111\\requests\\ModalContext\\19.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">6e6a2ec6-1e45-4a89-a908-cd1f3dabf0b7</property>
+</record>
+<record>
+  <date>2019-10-17T11:47:35</date>
+  <millis>1571302055379</millis>
+  <sequence>1875</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>663</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har7650127885780511752\\requests\\ModalContext\\20.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">2e8077c0-9cd3-4aec-b6c5-ae82d681f4d7</property>
+</record>
+<record>
+  <date>2019-10-17T11:48:13</date>
+  <millis>1571302093946</millis>
+  <sequence>1876</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>666</thread>
+  <message>HAR: C:\\Users\\COPIAG~1\\AppData\\Local\\Temp\\har8025642667187873359\\requests\\ModalContext\\21.har</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="harId">e3123796-253f-4eaa-8d92-cd3550634cfa</property>
+</record>
+</log>

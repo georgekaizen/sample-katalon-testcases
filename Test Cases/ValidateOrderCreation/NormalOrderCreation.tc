@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate creation of  Normal Order</description>
+   <name>NormalOrderCreation</name>
+   <tag>Normal_Order</tag>
+   <comment></comment>
+   <testCaseGuid>13204148-03eb-4675-aae5-40b008877674</testCaseGuid>
+</TestCaseEntity>
